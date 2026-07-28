@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Ph.D. student at Department of Electronic Engineering in Tsinghua University.
 
 ## Research Interests
 
