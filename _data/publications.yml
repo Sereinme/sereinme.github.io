@@ -12,6 +12,7 @@ main:
     conference_short: ION GNSS+
     conference: Proceedings of the 39th International Technical Meeting of the Satellite Division of the Institute of Navigation <strong>(ION GNSS+ 2026)</strong>, Orlando, Florida, Oct. 2026.
     image: ./assets/img/teaser_example.png
+    notes: Oral Presentation
 
   - title: "Feedback Node Aided Distributed Spoofing System for Global Navigation Satellite System Time Synchronisation Attack"
     authors: Ming Zhong, <strong>Wenhao Li</strong>, Mingquan Lu, and Hong Li
@@ -26,6 +27,7 @@ main:
     conference: Proceedings of the 37th International Technical Meeting of the Satellite Division of the Institute of Navigation <strong>(ION GNSS+ 2024)</strong>, Baltimore, Maryland, Oct. 2024, pp. 818-829.
     pdf: https://doi.org/10.33012/2024.19871
     image: ./assets/img/teaser_example.png
+    notes: Oral Presentation
 
   - title: "A Fast C/N0 Estimation Method Based on the Ratio of Acquisition Correlation Value"
     authors: Yuxin Ma, Hong Li, Zixuan Zhou, Zhenwei Wu, <strong>Wenhao Li</strong>, and Mingquan Lu
