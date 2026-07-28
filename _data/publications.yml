@@ -26,7 +26,7 @@ main:
     conference_short: ION GNSS+
     conference: Proceedings of the 37th International Technical Meeting of the Satellite Division of the Institute of Navigation <strong>(ION GNSS+ 2024)</strong>, Baltimore, Maryland, Oct. 2024, pp. 818-829.
     pdf: https://doi.org/10.33012/2024.19871
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/freq-select.png
     notes: Oral Presentation
 
   - title: "A Fast C/N0 Estimation Method Based on the Ratio of Acquisition Correlation Value"
@@ -34,4 +34,4 @@ main:
     conference_short: CSNC
     conference: China Satellite Navigation Conference <strong>(CSNC 2024)</strong>, Singapore, pp. 567-577, 2024.
     pdf: https://doi.org/10.1007/978-981-99-6932-6_47
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/fastcn0.png
