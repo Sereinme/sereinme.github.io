@@ -3,7 +3,7 @@ main:
   - title: "Full-Channel Asynchronous Spoofing Technique for GNSS Time Synchronization Attack"
     authors: <strong>Wenhao Li</strong>, Ming Zhong, Mingquan Lu, and Hong Li
     conference_short: IEEE TSG
-    conference: IEEE Transactions on Smart Grid <strong>(TSG)</strong>, vol. 17, no. 2, pp. 1492-1502, Mar. 2026.
+    conference: <strong>IEEE Transactions on Smart Grid</strong>, vol. 17, no. 2, pp. 1492-1502, Mar. 2026.
     pdf: https://doi.org/10.1109/TSG.2025.3622566
     image: ./assets/img/full-channel-async.webp
 
@@ -17,7 +17,7 @@ main:
   - title: "Feedback Node Aided Distributed Spoofing System for Global Navigation Satellite System Time Synchronisation Attack"
     authors: Ming Zhong, <strong>Wenhao Li</strong>, Mingquan Lu, and Hong Li
     conference_short: IET RSN
-    conference: IET Radar, Sonar & Navigation <strong>(RSN)</strong>, vol. 19, no. 1, p. e70088, 2025.
+    conference: <strong>IET Radar, Sonar & Navigation</strong>, vol. 19, no. 1, p. e70088, 2025.
     pdf: https://doi.org/10.1049/rsn2.70088
     image: ./assets/img/aidnode.png
 
