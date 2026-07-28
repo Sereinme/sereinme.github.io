@@ -4,7 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. candidate at the Department of Electronic Engineering, Tsinghua University since 2023, majoring in Information and Communication Engineering. My research focuses on GNSS positioning algorithms, signal processing, and multi-sensor fusion. I have internship experiences in embodied intelligence, embedded development, and data science.
+I am a Ph.D. candidate in Information and Communication Engineering at the Department of Electronic Engineering, Tsinghua University (since 2023). My research interests include GNSS positioning algorithms, signal processing, and multi-sensor fusion. I have also gained hands-on experience through internships in embodied intelligence, embedded systems, and data science.
+
+## Education
+
+- **Ph.D. in Information and Communication Engineering**, Tsinghua University, 2023 – Present, Beijing, China
+- **B.E. in Electronic Science and Technology**, Tsinghua University, 2019 – 2023, Beijing, China (GPA: 3.78/4.0)
 
 ## Research Interests
 
