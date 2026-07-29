@@ -188,7 +188,7 @@
         const beijing = new Date(utc + 8 * 3600000);
         const h = String(beijing.getHours()).padStart(2, '0');
         const m = String(beijing.getMinutes()).padStart(2, '0');
-        document.getElementById('live-time').textContent = h + ':' + m + ' UTC+8';
+        document.getElementById('live-time').textContent = h + ':' + m + ' UTC+ 08:00';
       }
       updateTime();
       setInterval(updateTime, 30000);
