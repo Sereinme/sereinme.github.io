@@ -43,23 +43,29 @@
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
+        <h1 style="text-align: left;">{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <a href="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
+        <position style="font-size:1.10rem; display: block; text-align: left;">{{ site.position }}</position>
         {% endif %}
 
         <br>
         <br>
         <div class="social-links">
+        {% if site.affiliation %}
+        <div class="social-row">
+          <i class="fas fa-building-columns"></i>
+          <a href="{{ site.affiliation_link }}">Tsinghua University</a>
+        </div>
+        {% endif %}
+
+        {% if site.email %}
+        <div class="social-row">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:{{ site.email }}">Email</a>
+        </div>
+        {% endif %}
+
         {% if site.google_scholar %}
         <div class="social-row">
           <i class="ai ai-google-scholar"></i>
