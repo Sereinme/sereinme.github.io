@@ -32,7 +32,7 @@
       {% endif %}
       {% if link.bibtex %} 
       <a class="btn btn-sm z-depth-0 bibtex-btn" role="button" href="javascript:void(0)" style="font-size:12px;">BibTex</a>
-      <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; padding:8px; border-radius:4px;">{{ link.bibtex }}</pre>
+      <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; padding:8px; border-radius:4px; border:none;">{{ link.bibtex }}</pre>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
