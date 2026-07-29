@@ -55,6 +55,42 @@
     */
 }
 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.social-row i {
+  width: 1.4rem;
+  font-size: 1.05rem;
+  text-align: center;
+  color: #043361;
+}
+
+.social-row a {
+  font-size: 0.95rem;
+  color: #043361;
+  text-decoration: none;
+}
+
+.social-row a:hover {
+  color: #0055a4;
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-row i { color: #3eb7f0; }
+  .social-row a { color: #3eb7f0; }
+  .social-row a:hover { color: #80d4ff; }
+}
+
 .icon-button{
   background-color:white;
   border-radius:3.6rem;
