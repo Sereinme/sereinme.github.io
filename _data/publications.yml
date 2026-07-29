@@ -6,6 +6,18 @@ main:
     conference: <strong>IEEE Transactions on Smart Grid</strong>, vol. 17, no. 2, pp. 1492-1502, Mar. 2026.
     pdf: https://doi.org/10.1109/TSG.2025.3622566
     image: ./assets/img/full-channel-async.webp
+    bibtex: |
+      @article{li2026full,
+        author = {Li, Wenhao and Zhong, Ming and Lu, Mingquan and Li, Hong},
+        title = {Full-Channel Asynchronous Spoofing Technique for {GNSS} Time Synchronization Attack},
+        journal = {IEEE Transactions on Smart Grid},
+        volume = {17},
+        number = {2},
+        pages = {1492--1502},
+        month = mar,
+        year = {2026},
+        doi = {10.1109/TSG.2025.3622566}
+      }
 
   - title: "Sequential Separate Clock Drift Anomaly Detection Method for GNSS Time Synchronization Attack"
     authors: <strong><u>Wenhao Li</u></strong>, Ming Zhong, Mingquan Lu, and Hong Li
@@ -13,6 +25,15 @@ main:
     conference: Proceedings of the 39th International Technical Meeting of the Satellite Division of the Institute of Navigation <strong>(ION GNSS+ 2026)</strong>, Orlando, Florida, Oct. 2026.
     image: ./assets/img/physical.webp
     notes: Oral Presentation
+    bibtex: |
+      @inproceedings{li2026sequential,
+        author = {Li, Wenhao and Zhong, Ming and Lu, Mingquan and Li, Hong},
+        title = {Sequential Separate Clock Drift Anomaly Detection Method for {GNSS} Time Synchronization Attack},
+        booktitle = {Proceedings of the 39th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2026)},
+        address = {Orlando, Florida},
+        month = oct,
+        year = {2026}
+      }
 
   - title: "Feedback Node Aided Distributed Spoofing System for Global Navigation Satellite System Time Synchronisation Attack"
     authors: Ming Zhong, <strong><u>Wenhao Li</u></strong>, Mingquan Lu, and Hong Li
@@ -20,6 +41,17 @@ main:
     conference: <strong>IET Radar, Sonar & Navigation</strong>, vol. 19, no. 1, p. e70088, 2025.
     pdf: https://doi.org/10.1049/rsn2.70088
     image: ./assets/img/aidnode.png
+    bibtex: |
+      @article{zhong2025feedback,
+        author = {Zhong, Ming and Li, Wenhao and Lu, Mingquan and Li, Hong},
+        title = {Feedback Node Aided Distributed Spoofing System for Global Navigation Satellite System Time Synchronisation Attack},
+        journal = {IET Radar, Sonar \& Navigation},
+        volume = {19},
+        number = {1},
+        pages = {e70088},
+        year = {2025},
+        doi = {10.1049/rsn2.70088}
+      }
 
   - title: "An FD-DEFLATE Data Compression Scheme for C/N0 Estimation in GNSS Interference Monitoring"
     authors: <strong><u>Wenhao Li</u></strong>, Lin Wang, Ming Zhong, Mingquan Lu, and Hong Li
@@ -28,6 +60,17 @@ main:
     pdf: https://doi.org/10.33012/2024.19871
     image: ./assets/img/freq-select.webp
     notes: Oral Presentation
+    bibtex: |
+      @inproceedings{li2024fd,
+        author = {Li, Wenhao and Wang, Lin and Zhong, Ming and Lu, Mingquan and Li, Hong},
+        title = {An {FD-DEFLATE} Data Compression Scheme for {C/N0} Estimation in {GNSS} Interference Monitoring},
+        booktitle = {Proceedings of the 37th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2024)},
+        address = {Baltimore, Maryland},
+        pages = {818--829},
+        month = oct,
+        year = {2024},
+        doi = {10.33012/2024.19871}
+      }
 
   - title: "A Fast C/N0 Estimation Method Based on the Ratio of Acquisition Correlation Value"
     authors: Yuxin Ma, Hong Li, Zixuan Zhou, Zhenwei Wu, <strong><u>Wenhao Li</u></strong>, and Mingquan Lu
@@ -35,3 +78,14 @@ main:
     conference: China Satellite Navigation Conference <strong>(CSNC 2024)</strong>, Singapore, pp. 567-577, 2024.
     pdf: https://doi.org/10.1007/978-981-99-6932-6_47
     image: ./assets/img/fastcn0.png
+    bibtex: |
+      @inproceedings{ma2024fast,
+        author = {Ma, Yuxin and Li, Hong and Zhou, Zixuan and Wu, Zhenwei and Li, Wenhao and Lu, Mingquan},
+        title = {A Fast {C/N0} Estimation Method Based on the Ratio of Acquisition Correlation Value},
+        booktitle = {China Satellite Navigation Conference (CSNC 2024) Proceedings},
+        address = {Singapore},
+        pages = {567--577},
+        year = {2024},
+        publisher = {Springer},
+        doi = {10.1007/978-981-99-6932-6_47}
+      }
