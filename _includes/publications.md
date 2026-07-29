@@ -31,8 +31,8 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
       {% if link.bibtex %} 
-      <a class="btn btn-sm z-depth-0 bibtex-btn" role="button" style="font-size:12px; cursor:pointer;">BibTex</a>
-      <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; background:#f5f5f5; padding:8px; border-radius:4px;">{{ link.bibtex }}</pre>
+      <a class="btn btn-sm z-depth-0 bibtex-btn" role="button" href="javascript:void(0)" style="font-size:12px;">BibTex</a>
+      <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; padding:8px; border-radius:4px;">{{ link.bibtex }}</pre>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -53,7 +53,8 @@
 
 <script>
 document.querySelectorAll('.bibtex-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
     var pre = this.nextElementSibling;
     pre.style.display = pre.style.display === 'none' ? 'block' : 'none';
   });
