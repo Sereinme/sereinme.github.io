@@ -32,7 +32,6 @@
       {% endif %}
       {% if link.bibtex %} 
       <a class="btn btn-sm z-depth-0 bibtex-btn" role="button" href="javascript:void(0)" style="font-size:12px;">BibTex</a>
-      <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; padding:8px; border-radius:4px; border:none;">{{ link.bibtex }}</pre>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -41,6 +40,9 @@
       {{ link.others }}
       {% endif %}
     </div>
+    {% if link.bibtex %}
+    <pre class="bibtex-text" style="display:none; font-size:11px; white-space:pre-wrap; margin-top:5px; padding:8px; border-radius:4px; border:none;">{{ link.bibtex }}</pre>
+    {% endif %}
   </div>
 </div>
 </li>
@@ -55,7 +57,7 @@
 document.querySelectorAll('.bibtex-btn').forEach(function(btn) {
   btn.addEventListener('click', function(e) {
     e.preventDefault();
-    var pre = this.nextElementSibling;
+    var pre = this.closest('li').querySelector('.bibtex-text');
     pre.style.display = pre.style.display === 'none' ? 'block' : 'none';
   });
 });
