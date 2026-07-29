@@ -66,6 +66,16 @@
         </div>
         {% endif %}
 
+        <div class="social-row">
+          <i class="fas fa-location-dot"></i>
+          <span>Beijing, China</span>
+        </div>
+
+        <div class="social-row">
+          <i class="fas fa-clock"></i>
+          <span id="live-time">UTC+8</span>
+        </div>
+
         {% if site.google_scholar %}
         <div class="social-row">
           <i class="ai ai-google-scholar"></i>
@@ -137,5 +147,17 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <script>
+      function updateTime() {
+        const now = new Date();
+        const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+        const beijing = new Date(utc + 8 * 3600000);
+        const h = String(beijing.getHours()).padStart(2, '0');
+        const m = String(beijing.getMinutes()).padStart(2, '0');
+        document.getElementById('live-time').textContent = h + ':' + m + ' UTC+8';
+      }
+      updateTime();
+      setInterval(updateTime, 30000);
+    </script>
   </body>
 </html>
